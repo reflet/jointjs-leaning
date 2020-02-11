@@ -15,8 +15,8 @@ $ docker-compose run --rm node npm install
 ```
 
 ## デモページ
-- [graphモデル](./demo/graph.html)
-- [ORG-組織図](./demo/org.html)
+- graphモデル: ./src/demo/graph.html
+- ORG-組織図: ./src/demo/org.html
 
 ## デモページを作ってみる
 下記テンプレートを使ってdemoフォルダ内にhtmlファイルを作成する。
