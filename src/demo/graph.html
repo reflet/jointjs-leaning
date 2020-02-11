@@ -8,14 +8,14 @@
     <style type="text/css">
         h1, p, div { padding:0; margin:0; }
         h1 { font-size:14px; }
-        #canpas { border:solid 1px #ccc; background-color: #eee; margin-top: 10px; }
+        #paper { border:solid 1px #ccc; background-color: #eee; margin-top: 10px; }
     </style>
 </head>
 <body>
     <h1><a href="https://shimz.me/blog/javascript/2979">フロー図や組織図、UML図などを簡単に表示できるライブラリ「JointJS」</a></h1>
     <p>上記ページのサンプルを動かしてみる！！</p>
 
-    <div id="canpas"></div>
+    <div id="paper"></div>
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/lodash/lodash.min.js"></script>
     <script src="../node_modules/backbone/backbone-min.js"></script>
@@ -26,7 +26,7 @@
 
         // paper(グラフを表示するステージ)の生成
         var paper = new joint.dia.Paper({
-            el: $('#canpas'),
+            el: $('#paper'),
             width: '100%',
             height: '500',
             model: graph
