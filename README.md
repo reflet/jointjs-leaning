@@ -1,9 +1,16 @@
-# jointjs-leaning
+# joint.jsを使ってみる
 
 ## dockerの準備
+dockerイメージを作成します。
 
 ```:bash
 $ docker-compose build
-$ docker-compose up -d
+```
+
+## パッケージをインストールする
+npmコマンドでインストールします。
+
+```:bash
+$ docker-compose run --rm node npm install
 ```
 
